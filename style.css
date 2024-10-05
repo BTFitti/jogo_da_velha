@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5FEFF;
+}
+h1{
+    text-align: center;
+}
+hr{
+    font-weight: bold;
+    height: 3px;
+    background: black;
+    width: 100%;
+    margin-bottom: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.game{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.game button{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background: white;
+}
